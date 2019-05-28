@@ -28,11 +28,10 @@ Once you're done, submit the URL to your working project with all its tests pass
 Remember to use the Read-Search-Ask method if you get stuck.
 
 ---
-
 #### **Challenge 2** - Build A Survey Form
-
+---
 #### **Challenge 3** - Build A Product Landing Page
-
+---
 #### **Challenge 4** - Build A Personal Portfolio Webpage
-
+---
 #### **Challenge 5** - Build A Technical Documentation Page
