@@ -1,10 +1,11 @@
-# FreeCodeCamp "Responsive Web Design" Certification (300 hours).
+# FreeCodeCamp 
+# Responsive Web Design Certification (300 hours).
 
 > 🚨 This project is a work in progress! 🚨
 
 ### The challenges below was my solutions for achieving that certification.
 
-#### **Challenge 1**- Responsive Web Design Projects - Build a Tribute Page
+#### **Challenge 1** - Build a Tribute Page
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
 
@@ -28,10 +29,10 @@ Remember to use the Read-Search-Ask method if you get stuck.
 
 ---
 
-**Challenge 2** - Responsive Web Design Projects - Build a Tribute Page
+#### **Challenge 2** - Build A Survey Form
 
-**Challenge 3** - Responsive Web Design Projects - Build a Tribute Page
+#### **Challenge 3** - Build A Product Landing Page
 
-**Challenge 4** - Responsive Web Design Projects - Build a Tribute Page
+#### **Challenge 4** - Build A Personal Portfolio Webpage
 
-**Challenge 5** - Responsive Web Design Projects - Build a Tribute Page
+#### **Challenge 5** - Build A Technical Documentation Page
