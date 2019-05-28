@@ -4,7 +4,7 @@
 > 🚨 This project is a work in progress! 🚨
 
 ### The challenges below was my solutions for achieving that certification.
-
+---
 #### **Challenge 1** - Build a Tribute Page
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
