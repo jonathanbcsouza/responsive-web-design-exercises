@@ -1,10 +1,10 @@
 # FreeCodeCamp-TributePage
 
-### The below challenge was the first for achieving the FreeCodeCamp "Responsive Web Design" Certification (300 hours).
-
 > 🚨 This project is a work in progress! 🚨
 
-Responsive Web Design Projects - Build a Tribute Page
+### The below challenge was the first for achieving the FreeCodeCamp "Responsive Web Design" Certification (300 hours).
+
+**Challenge 1** - Responsive Web Design Projects - Build a Tribute Page
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
 
@@ -26,3 +26,12 @@ You can build your project by forking <a href="http://codepen.io/freeCodeCamp/pe
 Once you're done, submit the URL to your working project with all its tests passing.
 Remember to use the Read-Search-Ask method if you get stuck.
 
+---
+
+**Challenge 2** - Responsive Web Design Projects - Build a Tribute Page
+
+**Challenge 3** - Responsive Web Design Projects - Build a Tribute Page
+
+**Challenge 4** - Responsive Web Design Projects - Build a Tribute Page
+
+**Challenge 5** - Responsive Web Design Projects - Build a Tribute Page
