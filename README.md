@@ -3,7 +3,7 @@
 
 > 🚨 This project is a work in progress! 🚨
 
-### The challenges below was my solutions for achieving that certification.
+### The challenges below were my solutions for achieving that certification.
 ---
 #### **Challenge 1** - Build a Tribute Page
 
