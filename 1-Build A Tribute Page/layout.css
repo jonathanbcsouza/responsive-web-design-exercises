@@ -1,0 +1,25 @@
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+body {
+  text-align: center;
+  color: #FFF;
+  margin: 0;
+  background-color: black;
+}
+strong{
+  color: #c6f68d
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h3{
+  color: #c6f68d;
+}
