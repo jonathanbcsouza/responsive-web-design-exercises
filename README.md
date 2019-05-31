@@ -3,7 +3,7 @@
 
 > 🚨 This project is a work in progress! 🚨
 
-### The challenges below were my solutions for achieving that certification.
+### These were my solutions for achieving the FreeCodeCamp Certification.
 ---
 #### **Challenge 1** - Build a Tribute Page
 
