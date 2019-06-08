@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--FreeCodeCamp test-->
+	<br>
+	<h1 id="title">Which one is a better band?</h1>
+
+	<link rel="stylesheet" type="text/css" href="layout.css">
+
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	
+</head>
+<body>
+	<p id="description">We are doing a research to figure out how your music tasty is related with your intelligence, help us fillig this form below:</p>
+	<form id="survey-form">
+		<ul>
+			<label id="name-label" for="name">Name: </label>
+			<input id="name" type="name" name="Your name:" required placeholder="Your name here">
+		</ul>
+		<ul>
+			<label id="number-label" for="years" >Your Age: </label>
+			<input id="number" type="number" min="1" max="100" required placeholder="Your age">
+		</ul>
+		<ul>
+			<label id="email-label" for="email">Your email:</label>
+			<input id="email" type="email" name="email" class="input-field" required placeholder="Enter your email">
+		</ul>
+		<ul>
+			<h3 id="band-h3" for="band">Which band do you prefer?:</h3>
+		</ul>
+		<li>
+			<select id="dropdown" class="dropdown">
+				<option disabled value>Select the band</option>
+				<option  value="radio">RadioHead</option>
+				<option value="beatles">The Beatles</option>
+				<option value="justin">Justin Bieber</option>
+				<option value="other">Other</option>
+			</select>		
+		</li>
+		<h3>* How likely do you consider yourself a music expert?</h3>
+		<ul style="list-style: none;">
+			<li class="radio">
+				<label>Dumb<input name="radio-buttons" value="1"  type="radio" ></label>
+			</li>
+			<li class="radio">
+				<label>Average<input name="radio-buttons" value="2"  type="radio" ></label>
+			</li>
+			<li class="radio">
+				<label>Expert <input name="radio-buttons" value="3"  type="radio" ></label>
+			</li>
+		</ul>
+		<div>
+			<h3>Music styles you like:</h3>
+			<ul>
+				<label class="checkbox" for="RockAndRoll">
+					<input id="RockAndRoll" type="checkbox" value="1" name="personality"> RockAndRoll
+				</label>
+			</ul>
+			<ul>
+				<label for="Electronic">
+					<input id="Electronic" type="checkbox" value="2" name="personality"> Electronic
+				</label>
+			</ul>
+		</div>
+		<div><h3>Leave Your Comment:</h3>
+			<textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comments here..."></textarea>
+		</div>
+		<br>
+		<button id="submit" type="submit">Submit</button>
+
+	</form>
+</body>
+</html>
