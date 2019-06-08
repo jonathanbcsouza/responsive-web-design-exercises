@@ -23,17 +23,23 @@ strong{
 
 p{
   padding: 10px;
-  text-align: justify;
 }
 
-h1, h3{
+h1, h2{
   color: #c6f68d;
 }
 
-ul, li{
-  padding: 5px;
-
+ul li {
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  font-size: 18px;
+  transition: 0.2s;
 }
+
+li:hover {
+  background: #555;
+}
+
 .labels {
   display: inline-block;
   text-align: right;
@@ -43,6 +49,9 @@ ul, li{
   margin-top: 10px;
 }
 .checkbox{
-  padding: 0px;
+  padding: 5px;
+}
 
+.dropdown{
+  list-style: none;
 }

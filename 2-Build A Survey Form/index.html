@@ -3,7 +3,7 @@
 <head>
 	<!--FreeCodeCamp test-->
 	<br>
-	<h1 id="title">Which one is a better band?</h1>
+	<h1 id="title">Music taste determines intelligence?</h1>
 
 	<link rel="stylesheet" type="text/css" href="layout.css">
 
@@ -11,22 +11,22 @@
 	
 </head>
 <body>
-	<p id="description">We are doing a research to figure out how your music tasty is related with your intelligence, help us fillig this form below:</p>
+	<p id="description">We are doing a survey to figure out how intelligence is related with music taste, help us by filling this form below:</p>
 	<form id="survey-form">
 		<ul>
 			<label id="name-label" for="name">Name: </label>
 			<input id="name" type="name" name="Your name:" required placeholder="Your name here">
 		</ul>
 		<ul>
-			<label id="number-label" for="years" >Your Age: </label>
-			<input id="number" type="number" min="1" max="100" required placeholder="Your age">
+			<label id="number-label" for="years" >Age: </label>
+			<input id="number" type="number" min="1" max="100" required placeholder="Age">
 		</ul>
 		<ul>
 			<label id="email-label" for="email">Your email:</label>
 			<input id="email" type="email" name="email" class="input-field" required placeholder="Enter your email">
 		</ul>
 		<ul>
-			<h3 id="band-h3" for="band">Which band do you prefer?:</h3>
+			<h2 id="band-h2" for="band">Which band do you prefer?:</h2>
 		</ul>
 		<li>
 			<select id="dropdown" class="dropdown">
@@ -34,10 +34,19 @@
 				<option  value="radio">RadioHead</option>
 				<option value="beatles">The Beatles</option>
 				<option value="justin">Justin Bieber</option>
+				<option value="mettalica">Mettalica</option>
+				<option value="jack">Jack Johnson</option>
+				<option value="green">Green Day</option>
+				<option value="pink">Pink Floyd</option>
+				<option value="nickel">Nickelback</option>
+				<option value="system">System Of A Down</option>
+				<option value="muse">Muse</option>
+				<option value="coldplay">ColdPlay</option>
+				<option value="beyonce">Beyoncé</option>
 				<option value="other">Other</option>
 			</select>		
 		</li>
-		<h3>* How likely do you consider yourself a music expert?</h3>
+		<h2>* How likely do you consider yourself a music expert?</h2>
 		<ul style="list-style: none;">
 			<li class="radio">
 				<label>Dumb<input name="radio-buttons" value="1"  type="radio" ></label>
@@ -50,19 +59,32 @@
 			</li>
 		</ul>
 		<div>
-			<h3>Music styles you like:</h3>
-			<ul>
-				<label class="checkbox" for="RockAndRoll">
-					<input id="RockAndRoll" type="checkbox" value="1" name="personality"> RockAndRoll
-				</label>
-			</ul>
-			<ul>
-				<label for="Electronic">
+			<h2>Music styles you like:</h2>
+			<ul style="list-style: none;">
+				<li class="checkbox" for="Rock">
+					<input id="Rock" type="checkbox" value="1" name="personality"> Rock
+				</li>
+				<li class="checkbox" for="Electronic">
 					<input id="Electronic" type="checkbox" value="2" name="personality"> Electronic
-				</label>
+				</li>
+				<li class="checkbox" for="Gospel">
+					<input id="Gospel" type="checkbox" value="3" name="personality"> Gospel
+				</li>
+				<li class="checkbox" for="Rap">
+					<input id="Rap" type="checkbox" value="4" name="personality"> Rap
+				</li>
+				<li class="checkbox" for="Classical">
+					<input id="Classical" type="checkbox" value="5" name="personality"> Classical
+				</li>
+				<li class="checkbox" for="Blues">
+					<input id="Blues" type="checkbox" value="6" name="personality"> Blues
+				</li>
+				<li class="checkbox" for="Reggae">
+					<input id="Reggae" type="checkbox" value="6" name="personality"> Reggae
+				</li>
 			</ul>
 		</div>
-		<div><h3>Leave Your Comment:</h3>
+		<div><h2>Leave Your Comment:</h2>
 			<textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comments here..."></textarea>
 		</div>
 		<br>
