@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!--FreeCodeCamp test-->
 	<br>
 	<h1 id="title">Music taste determines intelligence?</h1>
 
 	<link rel="stylesheet" type="text/css" href="layout.css">
 
+	<!--FreeCodeCamp test-->
 	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 	
 </head>
 <body>
-	<p id="description">We are doing a survey to figure out how intelligence is related with music taste, help us by filling this form below:</p>
+	<p id="description">We are doing a survey to figure out how the intelligence is related with music taste, help us by filling this form below:</p>
 	<form id="survey-form">
-		<ul>
-			<label id="name-label" for="name">Name: </label>
-			<input id="name" type="name" name="Your name:" required placeholder="Your name here">
-		</ul>
-		<ul>
-			<label id="number-label" for="years" >Age: </label>
-			<input id="number" type="number" min="1" max="100" required placeholder="Age">
-		</ul>
-		<ul>
-			<label id="email-label" for="email">Your email:</label>
-			<input id="email" type="email" name="email" class="input-field" required placeholder="Enter your email">
-		</ul>
+		<div class="user-data">
+			<ul>
+				<label id="name-label" for="name">Name: </label>
+				<input id="name" type="name" name="Your name:" required placeholder="Your name here">
+			</ul>
+			<ul>
+				<label id="number-label" for="number" >Age:</label>
+				<input id="number" type="number" min="1" max="100" required placeholder="Age">
+			</ul>
+			<ul>
+				<label id="email-label" for="email">Your email:</label>
+				<input id="email" type="email" name="email" class="input-field" required placeholder="Enter your email">
+			</ul>
+		</div>
 		<ul>
 			<h2 id="band-h2" for="band">Which band do you prefer?:</h2>
 		</ul>
@@ -84,12 +86,12 @@
 				</li>
 			</ul>
 		</div>
-		<div><h2>Leave Your Comment:</h2>
-			<textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comments here..."></textarea>
+		<div>
+			<h2>Leave Your Comment:</h2>
+			<textarea id="comments" class="input-field" name="comment" placeholder="Enter your comments here..."></textarea>
 		</div>
 		<br>
 		<button id="submit" type="submit">Submit</button>
-
 	</form>
 </body>
 </html>
