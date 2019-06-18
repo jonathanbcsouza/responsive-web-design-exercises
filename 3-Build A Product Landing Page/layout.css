@@ -1,0 +1,125 @@
+
+*{
+	background-color: black;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+}
+
+li{
+	text-align: left;
+}
+
+header {
+	height: 100px;
+	margin: auto;
+}
+
+.prices-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.description{
+	font-size: 24px;
+	color: white;
+	width: 40%;
+	margin: auto;
+}
+
+@media (max-width: 500px) {
+	.prices-container {
+		flex-direction: column;
+	}
+}
+
+img {
+	height: 60px;
+}
+
+iframe{
+	width: 550px;
+	height: 450px;
+}
+
+@media (max-width: 600px) {
+	.nav-ul {
+		flex-direction: column;
+	}
+
+	header {
+		height: 190px;
+		margin: auto;
+	}
+
+	img{
+		height: 60px;
+		padding: 10px;
+	}
+
+	iframe{
+		width: 350px;
+		height: 250px;
+	}
+	.nav-link{
+		padding: 4px;
+		display: flex;
+	}
+
+	.description{
+		font-size: 20px;
+		width: 90%;
+	}
+}
+
+.price1 {
+	border: 1px solid green;
+	padding: 20px;
+	margin: 10px;
+}
+
+.price2{
+	border: 1px solid blue;
+	padding: 20px;
+	margin: 10px;
+}
+
+.nav-ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+nav{
+	position: fixed;
+	top: 0px;
+	text-transform: capitalize;
+	width: 100%;
+}
+
+a:hover{
+	opacity:0.3;
+}
+
+p{
+	text-align: center;
+	font-size:24px;
+	font-family: 'Architects Daughter', cursive;
+	color: #c6f68d;
+}
+
+form{
+	text-align: center;
+	padding: 16px;
+}
+
+.video{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
