@@ -3,16 +3,14 @@
 <head>
 	<br>
 	<h1 id="title">Music taste determines intelligence?</h1>
-
 	<link rel="stylesheet" type="text/css" href="layout.css">
-
-	<!--FreeCodeCamp test-->
-	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-	
 </head>
 <body>
-	<p id="description">We are doing a survey to figure out how the intelligence is related with music taste, help us by filling this form below:</p>
+	<!--FreeCodeCamp test-->
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 	<form id="survey-form">
+		<p id="description">We are doing a survey to figure out how the intelligence is related with music taste, help us by filling this form below:</p>
 		<div class="user-data">
 			<ul>
 				<label id="name-label" for="name">Name: </label>
@@ -27,13 +25,13 @@
 				<input id="email" type="email" name="email" class="input-field" required placeholder="Enter your email">
 			</ul>
 		</div>
-		<ul>
-			<h2 id="band-h2" for="band">Which band do you prefer?:</h2>
-		</ul>
-		<li>
-			<select id="dropdown" class="dropdown">
+
+		<h2 id="band-h2" for="band">Which band do you prefer?:</h2>
+
+		<li style="list-style: none">
+			<select id="dropdown" class="dropdown" required>
 				<option disabled value>Select the band</option>
-				<option  value="radio">RadioHead</option>
+				<option value="radio">RadioHead</option>
 				<option value="beatles">The Beatles</option>
 				<option value="justin">Justin Bieber</option>
 				<option value="mettalica">Mettalica</option>
@@ -48,7 +46,7 @@
 				<option value="other">Other</option>
 			</select>		
 		</li>
-		<h2>* How likely do you consider yourself a music expert?</h2>
+		<h2>How likely do you consider yourself a music expert?</h2>
 		<ul style="list-style: none;">
 			<li class="radio">
 				<label>Dumb<input name="radio-buttons" value="1"  type="radio" ></label>

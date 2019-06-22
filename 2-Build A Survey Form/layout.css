@@ -6,16 +6,29 @@ body {
 }
 
 form{
+  width: 60%;
+  margin: auto;
+  padding: 5px; 
+}
+
+.user-data{
+  display: inline-block;
+  text-align: left;
 }
 
 p{
-  padding: 10px;
-  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+hr{
+  width: 50%;
 }
 
 h1, h2{
   color: #c6f68d;
   text-align: center;
+  text-transform: capitalize;
 }
 
 ul li {
@@ -27,4 +40,8 @@ ul li {
 
 li:hover {
   color: #1DB954;
+}
+
+textarea{
+  width: 80%;
 }
