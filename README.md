@@ -90,7 +90,7 @@ Once you're done, submit the URL to your working project with all its tests pass
 Remember to use the Read-Search-Ask method if you get stuck.
 
 ---
-#### **Challenge 4** - Build A Personal Portfolio Webpage
+#### **Challenge 4** - Build A Technical Documentation Page
 
 **Objective:** Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/NdrKKL.
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
@@ -119,4 +119,4 @@ Remember to use the Read-Search-Ask method if you get stuck.
 
 
 ---
-#### **Challenge 5** - Build A Technical Documentation Page
+#### **Challenge 5** - Build A Personal Portfolio Webpage

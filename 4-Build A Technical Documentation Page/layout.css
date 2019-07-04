@@ -1,0 +1,71 @@
+header{
+	padding: 16px;
+	font: bold;
+	font-size: 26px;
+}
+
+main{
+	position:fixed,3;
+	height: 100%;
+	width:100%;
+	margin-left: 400px;
+}
+
+#main-doc {
+	position: absolute;
+	margin-left: 310px;
+	padding: 20px;
+	margin-bottom: 110px;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	padding: 8px;
+}
+
+code {
+	display: block;
+	text-align: left;
+	background-color: #f7f7f7;
+	padding: 15px;
+	margin: 10px;
+}
+
+#navbar {
+	background-color: gray;
+	position: fixed;
+}
+
+#navbar ul{
+	height: 88%;
+	padding: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#navbar a {
+}
+
+#navbar li {
+
+}
+
+@media (max-width: 600px) {
+
+	#navbar{
+		position: absolute;
+		top: 0;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+
+	.description{
+		font-size: 20px;
+		width: 90%;
+	}
+}
+
