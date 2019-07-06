@@ -4,18 +4,26 @@ header{
 	font-size: 26px;
 }
 
+body{
+	position: absolute;
+	margin-left: 310px;
+	margin-bottom: 110px;
+}
+
 main{
 	position:fixed,3;
 	height: 100%;
 	width:100%;
-	margin-left: 400px;
 }
 
 #main-doc {
-	position: absolute;
-	margin-left: 310px;
-	padding: 20px;
-	margin-bottom: 110px;
+	
+}
+
+section article {
+	color: #4d4e53;
+	margin: 15px;
+	font-size: 0.96em;
 }
 
 ul{
@@ -35,8 +43,11 @@ code {
 }
 
 #navbar {
-	background-color: gray;
+	background-color: #f7f7f7;
 	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
 }
 
 #navbar ul{
@@ -47,25 +58,33 @@ code {
 }
 
 #navbar a {
+	cursor: pointer;
 }
 
 #navbar li {
-
+	margin-top: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px groove;
+	list-style: none;
 }
 
 @media (max-width: 600px) {
 
 	#navbar{
-		position: absolute;
-		top: 0;
-		padding: 0;
-		margin: 0;
-		width: 100%;
+		position: relative;
 	}
 
-	.description{
-		font-size: 20px;
-		width: 90%;
+	#main-doc {
+		margin-left: 0px;
+		padding: 5px;
+		margin-bottom: 10px;
+	}
+
+	body{
+		position: initial;
+		margin-left: 10px;
+		margin-bottom: 110px;
 	}
 }
 
