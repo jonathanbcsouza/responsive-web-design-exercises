@@ -5,10 +5,12 @@
   --main-title: white;
   --sub-title: #c6f68d;
   --headers-green: #c6f68d;
+  --links: #c6f68d;
 }
 
 *{ 
   font-family: 'Roboto', sans-serif;
+  background: black;
 }
 
 body{
@@ -25,6 +27,7 @@ main{
   position: fixed;
   width: 100vw;
   background-color: var(--main-black);
+  padding: 8px;
 }
 
 .nav-list {
@@ -38,10 +41,20 @@ a{
   text-decoration: none;
 }
 
-a:hover{
-  background-color: var(--sub-title);
-animation-delay: 5s;
- }
+p{
+  color: var(--links);
+}
+
+.projects:hover{
+  border: solid;
+  border-color: var(--sub-title);
+}
+
+.section-headers{
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
 
 ul{
  margin: 0;
@@ -61,6 +74,7 @@ img{
 
 .projects-container{
   display: flex;
+  text-align: center;
 }
 
 .projects-container > div{
@@ -101,6 +115,12 @@ img{
 .welcome-section > p {
   font-size: 4vh;
   color: var(--sub-title);
+}
+
+
+footer{
+margin-right: 18px;
+text-align: right;
 }
 
 @media (max-width: 600px) {
