@@ -5,16 +5,18 @@
   --main-title: white;
   --sub-title: #c6f68d;
   --headers-green: #c6f68d;
-  --links: #c6f68d;
+  --links: red;
+  --text: white;
 }
 
 *{ 
   font-family: 'Roboto', sans-serif;
   background: black;
+  color: white;
 }
 
 body{
-  margin: 0;
+  margin: 0px;
 }
 
 main{
@@ -28,6 +30,7 @@ main{
   width: 100vw;
   background-color: var(--main-black);
   padding: 8px;
+  z-index: 10;
 }
 
 .nav-list {
@@ -37,23 +40,59 @@ main{
   padding-right:25px;
 }
 
-a{
-  text-decoration: none;
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: var(--main-black);
 }
 
-p{
-  color: var(--links);
+.welcome-section > h1 {
+  font-size: 7vh;
 }
 
-.projects:hover{
-  border: solid;
-  border-color: var(--sub-title);
+.welcome-section > p {
+  font-size: 5vh;
+  color: var(--sub-title);
+}
+
+#projects-section{
+  background-color: blue;
+}
+
+#contact{
+  align-content: center;
 }
 
 .section-headers{
   text-align: center;
-  color: white;
+  color: var(--headers-green);
   font-size: 24px;
+  margin-left:25%;
+  margin-right:25%;
+  border-bottom: 0.1rem solid;
+}
+
+.contact-header{
+  text-align: center;
+  color: var(--headers-green);
+}
+
+a{
+  text-decoration: none;
+  color: green;
+}
+
+a:hover{
+  color: var(--links);
+}
+
+p{
+  color: var(--text);
 }
 
 ul{
@@ -72,6 +111,20 @@ img{
   height: 400px;
 }
 
+i{
+  color: white;
+  margin: 8px;
+}
+
+i:hover{
+  color: red;
+  margin: 8px;
+}
+
+.contact-section{
+  color: green;
+}
+
 .projects-container{
   display: flex;
   text-align: center;
@@ -79,16 +132,17 @@ img{
 
 .projects-container > div{
   margin: auto;
+  padding: 48px;
 }
 
 .projects-1 {
  flex: 1;
- order: 2;
+ order: 1;
 }
 
 .projects-2 {
  flex: 1;
- order: 1;
+ order: 2;
 }
 
 .projects-3 {
@@ -96,31 +150,37 @@ img{
  order: 3;
 }
 
-#welcome-section {
-  display: flex;
-  flex-direction: column;
+.projects:hover{
+  webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  filter: blur(3px);
+}
+
+.contact-links {
+  text-align: center;
   justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
+  flex-wrap: wrap;
+}
+
+#profile-link:hover {
+  color: var(--links);
+}
+
+.contact-header{
+  margin-bottom: 48px;
+}
+
+#profile-link{
   color:white;
-  background: var(--main-black);
+  margin:24px;
 }
-
-.welcome-section > h1 {
-  font-size: 3vh;
-  color: white;
-}
-
-.welcome-section > p {
-  font-size: 4vh;
-  color: var(--sub-title);
-}
-
 
 footer{
-margin-right: 18px;
-text-align: right;
+  font-weight: 300px;
+  display: flex;
+  margin-top: 20px;
+  padding: 2rem;
+  background: var(--main-gray);
+  border-top: 4px solid var(--headers-green);
 }
 
 @media (max-width: 600px) {
@@ -142,5 +202,5 @@ text-align: right;
 }
 
 .nav-list a:hover {
-  color:red;
+  color: var(--links);
 }
