@@ -55,9 +55,10 @@ main{
   font-size: 7vh;
 }
 
-.welcome-section > p {
+.typewrite > p {
   font-size: 5vh;
   color: var(--sub-title);
+  text-align: center;
 }
 
 #projects-section{
@@ -90,6 +91,7 @@ a{
 a:hover{
   color: var(--links);
 }
+
 
 p{
   color: var(--text);
@@ -161,7 +163,7 @@ i:hover{
   flex-wrap: wrap;
 }
 
-#profile-link:hover {
+#profile-links:hover {
   color: var(--links);
 }
 
