@@ -15,8 +15,12 @@
 	color: white;
 }
 
-body{
-	margin: 0px;
+body {
+	margin: 0;
+}
+
+html, body{
+	height: 100%;
 }
 
 main{
@@ -33,13 +37,17 @@ main{
 	z-index: 10;
 }
 
+#navbar {
+	top: 0px;
+	left: 0px;
+}
+
 .nav-list {
 	display: flex;
 	list-style:none;
 	margin:1vh;
 	padding-right:25px;
 }
-
 
 #welcome-section {
 	display: flex;
@@ -55,18 +63,26 @@ main{
 	font-size: 7vh;
 }
 
-.typewrite {
-	font-size: 5vh;
-	color: var(--sub-title);
-	text-align: center;
+.welcome-section > h1 {
+	font-size: 2em;
+	text-transform: uppercase;
+	color: var(--headers-green);
 }
+
+span {
+	border-right: .05em solid;
+	animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+	50% {
+		border-color: transparent;
+	}
+}
+
 
 #projects-section{
-	background-color: blue;
-}
-
-#contact{
-	align-content: center;
+	color: var(--headers-green);
 }
 
 .section-headers{
@@ -78,10 +94,6 @@ main{
 	border-bottom: 0.1rem solid;
 }
 
-.contact-header{
-	text-align: center;
-	color: var(--headers-green);
-}
 
 a{
 	text-decoration: none;
@@ -90,10 +102,6 @@ a{
 
 a:hover{
 	color: var(--links);
-}
-
-.link-footer{
-	float: right;
 }
 
 p{
@@ -121,15 +129,6 @@ i{
 	margin: 8px;
 }
 
-i:hover{
-	color: red;
-	margin: 8px;
-}
-
-.contact-section{
-	color: green;
-}
-
 .projects-container{
 	display: flex;
 	text-align: center;
@@ -155,33 +154,40 @@ i:hover{
 	order: 3;
 }
 
-.projects:hover{
+.project-project-title:hover{
 	webkit-filter: blur(4px); /* Chrome, Safari, Opera */
 	filter: blur(3px);
+	font-size: 20px;
 }
 
-.contact-links {
+#contact{
 	text-align: center;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
-#profile-links:hover {
-	color: var(--links);
+	color: green;
 }
 
 .contact-header{
-	margin-bottom: 48px;
+	color: var(--headers-green);
 }
 
-#profile-link{
-	color:white;
-	margin:24px;
+.contact-container {
+	margin-left: 30%;
+	margin-right: 30%;
+	display: flex;
+}
+
+.links {
+	flex: 1;
+	order: 1;
+}
+
+.links:hover{
+	color: var(--links-red);
+	font-size: 20px;
 }
 
 footer{
+	text-align: right;
 	font-weight: 300px;
-	display: flex;
 	margin-top: 20px;
 	padding: 2rem;
 	background: var(--main-gray);
@@ -190,11 +196,17 @@ footer{
 
 @media (max-width: 600px) {
 
-	#nav{
+	#navbar{
 		flex-direction:column;
-		display:flex;
+		align-items: center;
 	}
-	
+
+	ul {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
 	li{
 		margin: 1vw;
 	}
@@ -204,8 +216,15 @@ footer{
 		align-items: center;
 		flex-direction: column;
 	}
+
+	.contact-container {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	footer{
+		text-align: center;
+	}
 }
 
-.nav-list a:hover {
-	color: var(--links);
-}
