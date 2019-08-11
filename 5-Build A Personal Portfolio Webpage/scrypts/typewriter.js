@@ -1,3 +1,6 @@
+// JAVASCRIPT CODE GOT FROM https://codepen.io/danielgroen/pen/VeRPOq
+
+
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
   var dataText = [ "I would not just use things.", "I would not just copy.", "I would rather create them.", "and it is me" ,"Hello World"];
