@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
 :root {
 	--main-black: #000000;
 	--main-title: white;
@@ -9,7 +8,7 @@
 	--text: white;
 }
 
-*{ 
+* {
 	font-family: 'Roboto', sans-serif;
 	background: black;
 	color: white;
@@ -19,11 +18,11 @@ body {
 	margin: 0;
 }
 
-html, body{
+html, body {
 	height: 100%;
 }
 
-main{
+main {
 	margin: 0px;
 }
 
@@ -44,9 +43,9 @@ main{
 
 .nav-list {
 	display: flex;
-	list-style:none;
-	margin:1vh;
-	padding-right:25px;
+	list-style: none;
+	margin: 1vh;
+	padding-right: 25px;
 }
 
 #welcome-section {
@@ -59,11 +58,11 @@ main{
 	background: var(--main-black);
 }
 
-.welcome-section > h1 {
+.welcome-section>h1 {
 	font-size: 7vh;
 }
 
-.welcome-section > h1 {
+.welcome-section>h1 {
 	font-size: 2em;
 	text-transform: uppercase;
 	color: var(--headers-green);
@@ -80,61 +79,59 @@ span {
 	}
 }
 
-
-#projects-section{
+#projects-section {
 	color: var(--headers-green);
 }
 
-.section-headers{
+.section-headers {
 	text-align: center;
 	color: var(--headers-green);
 	font-size: 24px;
-	margin-left:25%;
-	margin-right:25%;
+	margin-left: 25%;
+	margin-right: 25%;
 	border-bottom: 0.1rem solid;
 }
 
-
-a{
+a {
 	text-decoration: none;
 	color: green;
 }
 
-a:hover{
+a:hover {
 	color: var(--links);
 }
 
-p{
+p {
 	color: var(--text);
 }
 
-ul{
+ul {
 	margin: 0;
 	padding: 0;
 	display: flex;
 }
 
-li{
+li {
 	margin: 0 2vw;
 	font-size: 3vh;
 }
 
-img{
-	width:100%;
+img {
+	width: 100%;
 	height: 400px;
 }
 
-i{
+i {
 	color: white;
 	margin: 8px;
 }
 
-.projects-container{
+.projects-container {
 	display: flex;
 	text-align: center;
 }
 
-.projects-container > div{
+.projects-container>div {
 	margin: auto;
 	padding: 48px;
 }
@@ -154,18 +151,19 @@ i{
 	order: 3;
 }
 
-.project-project-title:hover{
-	webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+.project-project-title:hover {
+	webkit-filter: blur(4px);
+	/* Chrome, Safari, Opera */
 	filter: blur(3px);
 	font-size: 20px;
 }
 
-#contact{
+#contact {
 	text-align: center;
 	color: green;
 }
 
-.contact-header{
+.contact-header {
 	color: var(--headers-green);
 }
 
@@ -180,12 +178,12 @@ i{
 	order: 1;
 }
 
-.links:hover{
+.links:hover {
 	color: var(--links-red);
 	font-size: 20px;
 }
 
-footer{
+footer {
 	text-align: right;
 	font-weight: 300px;
 	margin-top: 20px;
@@ -195,36 +193,29 @@ footer{
 }
 
 @media (max-width: 600px) {
-
-	#navbar{
-		flex-direction:column;
+	#navbar {
+		flex-direction: column;
 		align-items: center;
 	}
-
 	ul {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
 	}
-
-	li{
+	li {
 		margin: 1vw;
 	}
-
-	.projects-container{
+	.projects-container {
 		display: flex;
 		align-items: center;
 		flex-direction: column;
 	}
-
 	.contact-container {
 		display: flex;
 		align-items: center;
 		flex-direction: column;
 	}
-
-	footer{
+	footer {
 		text-align: center;
 	}
 }
-

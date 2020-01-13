@@ -10,9 +10,11 @@ body {
   margin: 0;
   background-color: black;
 }
+
 strong{
   color: #c6f68d
 }
+
 .center {
   display: block;
   margin-left: auto;

@@ -1,8 +1,6 @@
 # FreeCodeCamp 
 # Responsive Web Design Certification (300 hours).
 
-> 🚨 This project is a work in progress! 🚨
-
 ### These were my solutions for achieving the FreeCodeCamp Certification.
 ---
 #### **Challenge 1** - Build a Tribute Page
@@ -11,8 +9,6 @@
 **Solution:** https://codepen.io/jonathanbcsouza/full/xNpQwQ
 
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
-
-You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 
 - **User Story #1:** My tribute page should have an element with a corresponding id="main", which contains all other elements.
 - **User Story #2:** I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
@@ -24,21 +20,11 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
 - **User Story #8:** The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
 - **User Story #9:** The img element should be centered within its parent element.
 
-You can build your project by forking <a href="http://codepen.io/freeCodeCamp/pen/MJjpwO" target="_blank">this CodePen pen</a>. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js.
-
-Once you're done, submit the URL to your working project with all its tests passing.
-Remember to use the Read-Search-Ask method if you get stuck.
-
 ---
 #### **Challenge 2** - Build A Survey Form
 
 **Objective:** Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
-
 **Solution:** https://codepen.io/jonathanbcsouza/full/wbVgKX
-
-Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
-You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. 
-Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 
 - **User Story #1**: I can see a title with id="title" in H1 sized text.
 - **User Story #2**: I can see a short explanation with id="description" in P sized text.
@@ -56,9 +42,6 @@ Other projects will give you a chance to work with different technology stacks l
 - **User Story #14**: Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.
 - **User Story #15**: Inside the form element, I am presented with a textarea at the end for additional comments.
 - **User Story #16**: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
-You can build your project by forking <a href="https://codepen.io/jonathanbcsouza/pen/wbVgKX" target="_blank"> this CodePen pen</a>. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
-Once you're done, submit the URL to your working project with all its tests passing.
-Remember to use the Read-Search-Ask method if you get stuck.
 
 ---
 #### **Challenge 3** - Build A Product Landing Page
@@ -67,8 +50,6 @@ Remember to use the Read-Search-Ask method if you get stuck.
 
 **Solution:** https://codepen.io/jonathanbcsouza/pen/dBRoPz?editors=1100#0
 
-Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
-You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 - **User Story #1**: My product landing page should have a header element with a corresponding id="header".
 - **User Story #2**: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
 - **User Story #3**: Within the #header element I can see a nav element with a corresponding id="nav-bar".
@@ -85,16 +66,10 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
 - **User Story #14**: My product landing page should have at least one media query.
 - **User Story #15**: My product landing page should utilize CSS flexbox at least once.
 
-You can build your project by forking <a href="http://codepen.io/freeCodeCamp/full/MJjpwO" target="_blank">this CodePen pen</a>. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
-Once you're done, submit the URL to your working project with all its tests passing.
-Remember to use the Read-Search-Ask method if you get stuck.
-
 ---
 #### **Challenge 4** - Build A Technical Documentation Page
 
 **Objective:** Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/NdrKKL.
-Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
-You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 
 **Solution:** https://codepen.io/jonathanbcsouza/full/WqBpog
 
@@ -113,19 +88,12 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
 - **User Story #13**: When I click on a navbar element, the page should navigate to the corresponding section of the main-doc element (e.g. If I click on a nav-link element that contains the text "Hello world", the page navigates to a section element that has that id and contains the corresponding header.
 - **User Story #14**: On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user.
 - **User Story #15**: My Technical Documentation page should use at least one media query.
-You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
-Once you're done, submit the URL to your working project with all its tests passing.
-Remember to use the Read-Search-Ask method if you get stuck.
-
 
 ---
 #### **Challenge 5** - Build A Personal Portfolio Webpage
 
 Responsive Web Design Projects - Build a Personal Portfolio Webpage
 **Objective:** Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNBOYG.
-
-Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
-You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 
 **Solution:** https://codepen.io/jonathanbcsouza/pen/wVoOwN?editors=1100
 
@@ -141,11 +109,7 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
 - **User Story #10**: The height of the welcome section should be equal to the height of the viewport.
 - **User Story #11**: The navbar should always be at the top of the viewport.
 
-You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
-Once you're done, submit the URL to your working project with all its tests passing.
-Remember to use the Read-Search-Ask method if you get stuck.
-
 ---
 
-Certificate if you are curious how it is :)
+My Certificate if you are curious how it is :)
 https://www.freecodecamp.org/certification/jonathanbcsouza/responsive-web-design
