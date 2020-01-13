@@ -6,6 +6,7 @@
 #### **Challenge 1** - Build a Tribute Page
 
 **Objective:** Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
+
 **Solution:** https://codepen.io/jonathanbcsouza/full/xNpQwQ
 
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
@@ -24,6 +25,7 @@ Fulfill the below user stories and get all of the tests to pass. Give it your ow
 #### **Challenge 2** - Build A Survey Form
 
 **Objective:** Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
+
 **Solution:** https://codepen.io/jonathanbcsouza/full/wbVgKX
 
 - **User Story #1**: I can see a title with id="title" in H1 sized text.
@@ -92,7 +94,6 @@ Fulfill the below user stories and get all of the tests to pass. Give it your ow
 ---
 #### **Challenge 5** - Build A Personal Portfolio Webpage
 
-Responsive Web Design Projects - Build a Personal Portfolio Webpage
 **Objective:** Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNBOYG.
 
 **Solution:** https://codepen.io/jonathanbcsouza/pen/wVoOwN?editors=1100
@@ -112,4 +113,5 @@ Responsive Web Design Projects - Build a Personal Portfolio Webpage
 ---
 
 My Certificate if you are curious how it is :)
+
 https://www.freecodecamp.org/certification/jonathanbcsouza/responsive-web-design
