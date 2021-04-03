@@ -1,27 +1,30 @@
-img {
-  max-width: 100%;
-  display: block;
-  height: auto;
-}
-
 body {
   text-align: center;
-  color: #FFF;
-  margin: 0;
+  color: #fff;
   background-color: black;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
 }
 
-strong{
-  color: #c6f68d
+h1,
+h3,
+strong {
+  color: #c6f68d;
 }
 
-.center {
+img {
   display: block;
+  max-width: 100%;
+  height: auto;
+  filter: saturate(0.4);
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-h3{
-  color: #c6f68d;
+section {
+  font-size: 1em;
+  line-height: 26px;
+  text-align: justify;
+  text-justify: inter-word;
 }
