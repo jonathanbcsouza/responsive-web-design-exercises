@@ -1,43 +1,39 @@
 body {
-  text-align: center;
-  color: #FFF;
-  margin-top:10px;
+  color: #fff;
+  margin: 10px auto 25px auto;
   background-color: black;
-}
-
-form{
-  width: 60%;
-  margin: auto;
-  padding: 5px; 
-}
-
-.user-data{
-  display: inline-block;
-  text-align: left;
-}
-
-p{
   width: 80%;
-  margin: auto;
+  height: 80%;
 }
 
-h1, h2{
+h1,
+h2,
+h3 {
+  margin: 2em 0 0.6em 0;
   color: #c6f68d;
-  text-align: center;
   text-transform: capitalize;
 }
 
-ul li {
-  display: inline-block;
-  padding: 12px;
-  font-size: 18px;
-  transition: 0.2s;
+input {
+  margin: 1em 0 0 0;
 }
 
-li:hover {
-  color: #1DB954;
+ul,
+li {
+  list-style: none;
 }
 
-textarea{
+li :hover {
+  color: #1db954;
+  cursor: pointer;
+}
+
+.checkboxes :hover {
+  color: #1db954;
+  cursor: pointer;
+}
+
+textarea {
+  height: 150px;
   width: 80%;
 }

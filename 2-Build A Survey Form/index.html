@@ -2,97 +2,105 @@
 <html>
 
 <head>
-	<br>
-	<h1 id="title">Music taste determines intelligence?</h1>
-	<link rel="stylesheet" type="text/css" href="layout.css">
+  <link rel="stylesheet" type="text/css" href="layout.css" />
 </head>
 
 <body>
-	<!--FreeCodeCamp test-->
-	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-	<form id="survey-form">
-		<p id="description">We are doing a survey to figure out how the intelligence is related with music taste, help
-			us by filling this form below:</p>
-		<div class="user-data">
-			<ul>
-				<label id="name-label" for="name">Name: </label>
-				<input id="name" type="name" name="Your name:" required placeholder="Your name here">
-			</ul>
-			<ul>
-				<label id="number-label" for="number">Age:</label>
-				<input id="number" type="number" min="1" max="100" required placeholder="Age">
-			</ul>
-			<ul>
-				<label id="email-label" for="email">Your email:</label>
-				<input id="email" type="email" name="email" class="input-field" required placeholder="Enter your email">
-			</ul>
-		</div>
-		<h2 id="band-h2" for="band">Which band do you prefer?:</h2>
-		<li style="list-style: none">
-			<select id="dropdown" class="dropdown" required>
-				<option disabled value>Select the band</option>
-				<option value="radio">RadioHead</option>
-				<option value="beatles">The Beatles</option>
-				<option value="justin">Justin Bieber</option>
-				<option value="mettalica">Mettalica</option>
-				<option value="jack">Jack Johnson</option>
-				<option value="green">Green Day</option>
-				<option value="pink">Pink Floyd</option>
-				<option value="nickel">Nickelback</option>
-				<option value="system">System Of A Down</option>
-				<option value="muse">Muse</option>
-				<option value="coldplay">ColdPlay</option>
-				<option value="beyonce">Beyoncé</option>
-				<option value="other">Other</option>
-			</select>
-		</li>
-		<h2>How likely do you consider yourself a music expert?</h2>
-		<ul style="list-style: none;">
-			<li class="radio">
-				<label>Dumb<input name="radio-buttons" value="1" type="radio"></label>
-			</li>
-			<li class="radio">
-				<label>Average<input name="radio-buttons" value="2" type="radio"></label>
-			</li>
-			<li class="radio">
-				<label>Expert <input name="radio-buttons" value="3" type="radio"></label>
-			</li>
-		</ul>
-		<div>
-			<h2>Music styles you like:</h2>
-			<ul style="list-style: none;">
-				<li class="checkbox" for="Rock">
-					<input id="Rock" type="checkbox" value="1" name="personality"> Rock
-				</li>
-				<li class="checkbox" for="Electronic">
-					<input id="Electronic" type="checkbox" value="2" name="personality"> Electronic
-				</li>
-				<li class="checkbox" for="Gospel">
-					<input id="Gospel" type="checkbox" value="3" name="personality"> Gospel
-				</li>
-				<li class="checkbox" for="Rap">
-					<input id="Rap" type="checkbox" value="4" name="personality"> Rap
-				</li>
-				<li class="checkbox" for="Classical">
-					<input id="Classical" type="checkbox" value="5" name="personality"> Classical
-				</li>
-				<li class="checkbox" for="Blues">
-					<input id="Blues" type="checkbox" value="6" name="personality"> Blues
-				</li>
-				<li class="checkbox" for="Reggae">
-					<input id="Reggae" type="checkbox" value="6" name="personality"> Reggae
-				</li>
-			</ul>
-		</div>
-		<div>
-			<h2>Leave Your Comment:</h2>
-			<textarea id="comments" class="input-field" name="comment"
-				placeholder="Enter your comments here..."></textarea>
-		</div>
-		<br>
-		<button id="submit" type="submit">Submit</button>
-	</form>
+  <!--FreeCodeCamp test-->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <form id="survey-form">
+    <h1 id="title">Does music taste determine intelligence?</h1>
+    <p id="description">
+      We are doing scientific research to investing any possible correlation
+      between intelligence and music preferences.<br />
+      Please, support our research by filling up this form below.
+    </p>
+    <label id="name-label" for="name">Name: </label>
+    <input id="name" type="name" name="Your name:" required placeholder="Your name here" />
+    <br />
+    <label id="email-label" for="email">Your email: </label>
+    <input id="email" type="email" name="email" class="input-field" required placeholder="Enter your email" />
+    <label id="number-label" for="number">Age: </label>
+    <input id="number" type="number" min="1" max="100" class="input-field" required placeholder="Age" />
+    <h3 id="band-h2" for="band">Which band do you prefer?</h3>
+    <select id="dropdown" class="dropdown" required>
+      <option disabled value>Select the band</option>
+      <option value="radio">RadioHead</option>
+      <option value="beatles">The Beatles</option>
+      <option value="justin">Justin Bieber</option>
+      <option value="mettalica">Mettalica</option>
+      <option value="jack">Jack Johnson</option>
+      <option value="green">Green Day</option>
+      <option value="pink">Pink Floyd</option>
+      <option value="nickel">Nickelback</option>
+      <option value="system">System Of A Down</option>
+      <option value="muse">Muse</option>
+      <option value="coldplay">ColdPlay</option>
+      <option value="beyonce">Beyoncé</option>
+      <option value="other">Other</option>
+    </select>
+    <h3>What is your technical level of music theory?</h3>
+    <ul>
+      <li class="radio">
+        <label>
+          <input name="radio-buttons" value="1" type="radio" /> Listener - Do not play any instrument.
+        </label>
+      </li>
+      <li class="radio">
+        <label>
+          <input name="radio-buttons" value="1" type="radio" /> Beginner -
+          Learning at least 1 instrument.
+        </label>
+      </li>
+      <li class="radio">
+        <label>
+          <input name="radio-buttons" value="2" type="radio" /> Medium - Play
+          at least 1 instrument.</label>
+      </li>
+      <li class="radio">
+        <label>
+          <input name="radio-buttons" value="3" type="radio" />
+          Pro - Play at least 1 instrument in a professional level.
+        </label>
+      </li>
+    </ul>
+    <div>
+      <h3>Music styles you like:</h3>
+      <ul>
+        <div class="checkboxes">
+          <input type="checkbox" value="rock" id="rock" name="music-style" />
+          <label for="rock">Rock</label>
+        </div>
+        <div class="checkboxes">
+          <input type="checkbox" value="electronic" id="electronic" name="music-style" />
+          <label for="electronic">Electronic</label>
+        </div>
+        <div class="checkboxes">
+          <input type="checkbox" value="gospel" id="gospel" name="music-style" />
+          <label for="gospel">Gospel</label>
+        </div>
+        <div class="checkboxes">
+          <input type="checkbox" value="rap" id="rap" name="music-style" />
+          <label for="rap">Rap</label>
+        </div>
+        <div class="checkboxes">
+          <input type="checkbox" value="classical" id="classical" name="music-style" />
+          <label for="classical">Classical</label>
+        </div>
+        <div class="checkboxes">
+          <input type="checkbox" value="blues" id="blues" name="music-style" />
+          <label for="blues">Blues</label>
+        </div>
+        <div class="checkboxes">
+          <input type="checkbox" value="reggae" id="reggae" name="music-style" />
+          <label for="reggae">Reggae</label>
+        </div>
+      </ul>
+      <h2>Leave Your Comment:</h2>
+      <textarea placeholder="Enter your comments here..."></textarea>
+      <br />
+      <button id="submit" type="submit">Submit</button>
+  </form>
 </body>
 
 </html>
