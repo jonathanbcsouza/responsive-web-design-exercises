@@ -1,7 +1,15 @@
+:root {
+	--main-background: #000000;
+	--headers: #c6f68d;
+	--links-hover: #c6f68d;
+	--texts: white;
+	--boxes: linear-gradient(to left, #c6f68d, #266e32);
+}
+
 * {
 	font-family: 'Architects Daughter', cursive, 'Roboto', sans-serif;
-	background-color: black;
-	color: white;
+	background-color: var(--main-background);
+	color: var(--texts);
 	text-decoration: none;
 	list-style: none;
 }
@@ -41,7 +49,7 @@ main {
 }
 
 a:hover {
-	color: #c6f68d;
+	color: var(--links-hover);
 }
 
 ul {
@@ -49,7 +57,7 @@ ul {
 }
 
 h1 {
-	color: #c6f68d;
+	color: var(--headers);
 }
 
 p {
@@ -71,7 +79,7 @@ p {
 	border: 10px solid;
 	border-image-slice: 1;
 	border-width: 2px;
-	border-image-source: linear-gradient(to left, #c6f68d, #266e32);
+	border-image-source: var(--boxes);
 	margin: 5%;
 }
 
@@ -85,7 +93,7 @@ p {
 }
 
 .service:hover li {
-	color: #a1ec44;
+	color: var(--links-hover);
 }
 
 .service:active {
