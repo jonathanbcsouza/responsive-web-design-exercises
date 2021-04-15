@@ -178,4 +178,7 @@ footer a {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 40px 40px;
 	}
+	footer p {
+		text-align: center;
+	}
 }
