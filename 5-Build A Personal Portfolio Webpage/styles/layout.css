@@ -164,6 +164,19 @@ footer a {
 	color: var(--customGreen);
 }
 
+#scrollBtn{
+	position:fixed;
+	bottom: 10px;
+	right:10px;
+	color: var(--customGray)
+  }
+  
+  #scrollBtn:hover{
+	background-color: var(--customGray);
+	color: var(--customWhite);
+	cursor: pointer;
+  }
+  
 @media (max-width: 600px) {
 	#nav-list {
 		display: block;

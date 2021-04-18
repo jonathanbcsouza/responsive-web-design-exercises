@@ -41,6 +41,7 @@ body{
 	color: var(--customGreen);
 	background-color: var(--customGray);
 }
+
 main{
 	padding: 85px 50px;
 	border-left: 8px solid var(--customGray);
@@ -63,7 +64,7 @@ header{
 	color: var(--customGreen);
 }
 .section-link:hover{
-	border-bottom: 1px solid var(--texts);
+	border-bottom: 1px solid var(--customWhite);
 }
 
 code {
@@ -76,8 +77,19 @@ code {
 	white-space:pre-line;
 }
 
-@media only screen and (max-width: 815px) {
+#scrollBtn{
+  position:fixed;
+  bottom: 10px;
+  right:10px;
+  color: var(--customGray)
+}
+#scrollBtn:hover{
+  background-color: var(--customGray);
+  color: var(--customWhite);
+  cursor: pointer;
+}
 
+@media only screen and (max-width: 815px) {
    #navbar {
 	position: relative;
 	width: 100%;
@@ -90,6 +102,7 @@ code {
 .nav-link{
 	width: 100%;
 }
+
 	main{
 		border-top: 8px solid var(--customGray);
 		border-left: none;
@@ -98,5 +111,4 @@ code {
 		left: 0;
 		width: auto;
    }
-
 }
